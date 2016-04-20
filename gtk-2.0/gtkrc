@@ -302,7 +302,7 @@ style "text_is_fg_color_workaround" {
 	text[PRELIGHT]    = @fg_color
 	text[SELECTED]    = @selected_fg_color
 	text[ACTIVE]      = @fg_color
-	text[INSENSITIVE] = darker (@bg_color)
+	text[INSENSITIVE] = shade (0.6, @bg_color)
 }
 
 # Workaround style for menus where the text color is used instead of the fg color.
