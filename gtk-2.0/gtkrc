@@ -1,7 +1,7 @@
 
 # Please keep this gtkrc in sync with the other ones from Clearlooks based themes.
 
-gtk-color-scheme = "base_color:#3f3f3f\nfg_color:#dcdccc\ntooltip_fg_color:#efef8f\nselected_bg_color:#596370\nselected_fg_color:#ffffff\ntext_color:#cccccc\nbg_color:#525252\ntooltip_bg_color:#3f3f3f\nlink_color:#4f97e1\nvisited_link_color:#9b9bec"
+gtk-color-scheme = "base_color:#3f3f3f\nfg_color:#dcdccc\ntooltip_fg_color:#efef8f\nselected_bg_color:#596370\nselected_fg_color:#ffffff\ntext_color:#dcdccc\nbg_color:#525252\ntooltip_bg_color:#3f3f3f\nlink_color:#4f97e1\nvisited_link_color:#9b9bec\nred:#ff0000\ngreen:#00ff00\nblue:#0000ff"
 
 style "default" {
 	xthickness = 1
@@ -87,6 +87,10 @@ style "default" {
 		# Set a hint to disable backward compatibility fallbacks.
 		hint = "use-hints"
 	}
+}
+
+style "paned" {
+    bg[NORMAL] = @base_color
 }
 
 style "wide" {
@@ -338,6 +342,8 @@ style "evo_new_button_workaround" {
 
 # The default style is applied to every widget
 class "GtkWidget" style "default"
+
+class "GtkPaned" style "paned"
 
 class "GtkSeparator" style "wide"
 class "GtkFrame" style "wide"
