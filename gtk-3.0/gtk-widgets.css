@@ -675,6 +675,7 @@ GtkComboBox.combobox-entry .button:insensitive {
 	border-color: @border_color;
 	border-style: solid;
 	border-width: 1px;
+    border-radius: 3px;
 	background-clip: border-box;
 	background-color: @notebook_bg_color;
 	-GtkNotebook-tab-overlap: 2;
@@ -1119,7 +1120,7 @@ GtkTreeMenu .menuitem {
 
 .menubar .menuitem {
 	border-style: none;
-	padding: 3px 5px;
+	padding: 3px 7px;
 	background-color: transparent;
 }
 
@@ -1146,7 +1147,7 @@ GtkTreeMenu .menuitem {
 
 .menu .menuitem {
 	-GtkMenuItem-arrow-scaling: 0.5;
-	padding: 4px;
+	padding: 3px 5px;
 	background-color: @theme_bg_color;
 }
 
@@ -1272,11 +1273,11 @@ GtkCheckButton:selected:focus {
 .toolbar {
 	border-style: none;
 	border-color: darker (@theme_bg_color);
-	padding: 4px;
+	padding: 3px;
 }
 
 .toolbar .button {
-	padding: 1px;
+	padding: 1px 2px;
 }
 
 .toolbar:insensitive {
@@ -1357,7 +1358,7 @@ GtkCheckButton:selected:focus {
 .inline-toolbar.toolbar  {
 	background-color: transparent;
 	background-image: linear-gradient(to bottom,
-	                  @toolbar_inner_border_color 1px,
+	                  @toolbar_inner_border_color 0px,
 	                  @toolbar_gradient_a 2px,
 	                  @toolbar_gradient_b 50%,
 	                  @toolbar_gradient_c 50%,
