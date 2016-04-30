@@ -14,7 +14,7 @@
    id="svg33222"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="border-trough.svg">
+   sodipodi:docname="border-raised.svg">
   <defs
      id="defs33224" />
   <sodipodi:namedview
@@ -25,8 +25,8 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:zoom="26.251341"
-     inkscape:cx="6.5187909"
-     inkscape:cy="7.8296544"
+     inkscape:cx="1.407618"
+     inkscape:cy="7.6875974"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:grid-bbox="true"
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,16 +65,15 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer">
     <g
-       id="g4215"
-       transform="translate(0.08080808,0.03367003)">
+       id="g4215">
       <path
          sodipodi:nodetypes="cssssc"
          inkscape:connector-curvature="0"
          id="rect17861-5"
          d="m 15.5,4 0,8.999999 c 0,1.385 -1.115,2.5 -2.5,2.5 l -9.9999995,0 c -1.3850003,0 -2.5000005,-1.115 -2.5000005,-2.5 L 0.5,4"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.6;fill:none;stroke:#3e3e3e;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;marker:none;enable-background:accumulate" />
+         style="color:#000000;fill:none;stroke:#3e3e3e;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;opacity:0.6" />
       <rect
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:#313131;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         style="color:#000000;fill:none;stroke:#313131;stroke-width:1;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
          id="rect17861"
          width="15"
          height="13.999999"
@@ -82,6 +81,12 @@
          y="0.5"
          rx="2.5000005"
          ry="2.5" />
+      <path
+         sodipodi:nodetypes="cssc"
+         inkscape:connector-curvature="0"
+         id="rect17861-6"
+         d="m 1.4991454,12.00367 0,-9 c 0,-0.831 0.669,-1.5 1.5,-1.5 l 10.0000006,0"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.608;fill:none;fill-opacity:1;stroke:#666666;stroke-width:0.99999994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate" />
     </g>
   </g>
 </svg>

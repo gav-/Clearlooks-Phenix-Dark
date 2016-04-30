@@ -379,33 +379,43 @@ GtkScale.scale-has-marks-below.slider.vertical:insensitive {
 /* generic element borders */
 .entry,
 GtkComboBox.combobox-entry .entry,
-GtkComboBox.combobox-entry .button,
+GtkComboBox.combobox-entry .button:active,
 .button:active,
 .trough,
 .trough.highlight,
 GtkSwitch.trough,
+/* primary toolbar - generic element borders */
+.primary-toolbar .entry,
+.primary-toolbar GtkComboBox.combobox-entry .entry,
+.primary-toolbar .button:active,
+.primary-toolbar .button:active:hover,
+.primary-toolbar GtkSwitch.trough,
+.primary-toolbar GtkSwitch.trough:insensitive,
+.primary-toolbar GtkComboBox .button:active,
+.primary-toolbar GtkComboBox .button:insensitive {
+	border-image: url("img/border.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
+	border-radius: 3px;
+	border-width: 1px 1px 2px 1px;
+	border-style: solid;
+	border-color: transparent;
+}
+
 /* generic button borders */
 .button,
 .titlebar .titlebutton:hover,
 .primary-toolbar .button.raised,
 .primary-toolbar .raised .button,
 .primary-toolbar GtkComboBox .button,
-/* primary toolbar - generic element borders */
-.primary-toolbar .entry,
-.primary-toolbar GtkComboBox.combobox-entry .entry,
+GtkComboBox.combobox-entry .button,
+/* primary toolbar - raised element borders */
 .primary-toolbar GtkComboBox.combobox-entry .button,
-.primary-toolbar .button:active,
 .primary-toolbar .button.raised:active,
 .primary-toolbar .raised .button:active,
 .primary-toolbar .button.raised:insensitive,
 .primary-toolbar .raised .button:insensitive,
-.primary-toolbar GtkSwitch.trough,
-.primary-toolbar GtkSwitch.trough:insensitive,
-.primary-toolbar GtkComboBox .button:active,
-.primary-toolbar GtkComboBox .button:insensitive,
 /* primary toolbar - hover button borders */
 .primary-toolbar .button:hover {
-	border-image: url("img/border.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
+	border-image: url("img/border-raised.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
 	border-radius: 3px;
 	border-width: 1px 1px 2px 1px;
 	border-style: solid;

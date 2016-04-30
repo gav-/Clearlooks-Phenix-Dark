@@ -5,10 +5,34 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg33222"
    height="16px"
-   width="16px">
+   width="16px"
+   inkscape:version="0.91 r"
+   sodipodi:docname="border-focused.svg">
+  <sodipodi:namedview
+     pagecolor="#535353"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1068"
+     inkscape:window-height="853"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="20.85965"
+     inkscape:cx="11.090199"
+     inkscape:cy="6.5901411"
+     inkscape:window-x="833"
+     inkscape:window-y="133"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg33222" />
   <defs
      id="defs33224">
     <linearGradient
@@ -31,7 +55,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
