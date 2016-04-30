@@ -443,9 +443,12 @@ GtkScrolledWindow GtkViewport.frame {
  ***********/
 
 .button,
-.button.menuitem.menubar,
+.button.menuitem.menubar {
+	padding: 2px 2px;
+}
+
 GtkComboBox.combobox-entry .button {
-	padding: 1px 4px;
+	padding: 3px 3px;
 }
 
 .button {
@@ -842,6 +845,7 @@ GtkComboBox .separator {
 	-GtkWidget-vertical-separator: 0;
 }
 
+/*
 GtkComboBox.combobox-entry .entry:first-child,
 GtkComboBox.combobox-entry .button:first-child {
 	border-image-width: 3px 0 4px 3px;
@@ -873,6 +877,7 @@ GtkComboBox.combobox-entry .button:last-child {
 	border-radius: 0 3px 3px 0;
 	border-left-width: 0;
 }
+*/
 
 GtkComboBox.combobox-entry .button *:active,
 GtkComboBox.combobox-entry .button *:active:hover {

@@ -415,7 +415,7 @@ GtkComboBox.combobox-entry .button,
 .primary-toolbar .raised .button:insensitive,
 /* primary toolbar - hover button borders */
 .primary-toolbar .button:hover {
-	border-image: url("img/border-raised.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
+	border-image: url("img/border-raised.png") 4 5 5 4 / 4px 5px 5px 4px repeat;
 	border-radius: 3px;
 	border-width: 1px 1px 2px 1px;
 	border-style: solid;
