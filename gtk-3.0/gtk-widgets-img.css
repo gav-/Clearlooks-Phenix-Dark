@@ -417,7 +417,7 @@ GtkComboBox.combobox-entry .button,
 .primary-toolbar .button:hover {
 	border-image: url("img/border-raised.png") 4 5 5 4 / 4px 5px 5px 4px repeat;
 	border-radius: 3px;
-	border-width: 1px 1px 2px 1px;
+	border-width: 2px 2px 2px 2px;
 	border-style: solid;
 	border-color: transparent;
 }
@@ -586,9 +586,9 @@ GtkComboBox.combobox-entry .button:insensitive,
 .entry:insensitive,
 .button:insensitive,
 .trough row {
-	border-image: url("img/border-insensitive.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
+	border-image: url("img/border-insensitive.png") 4 5 4 4 / 4px 5px 4px 4px repeat;
 	border-radius: 3px;
-	border-width: 1px 1px 2px 1px;
+	border-width: 2px 2px 2px 2px;
 	border-style: solid;
 	border-color: transparent;
 }
@@ -598,9 +598,7 @@ GtkComboBox.combobox-entry .button:insensitive,
 GtkComboBox.combobox-entry .entry:focus,
 .button:focus:active,
 .button.default:active,
-/* focused button borders */
-.button:focus,
-.button.default,
+/* primary toolbar - focused element borders */
 .primary-toolbar .entry:focus,
 .primary-toolbar .button:active:focus,
 .primary-toolbar .button:focus:hover,
@@ -616,9 +614,20 @@ GtkComboBox.combobox-entry .entry:focus,
 .primary-toolbar .raised .button:focus,
 .primary-toolbar .raised .button.default,
 .primary-toolbar GtkComboBox .button:focus {
-	border-image: url("img/border-focused.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
+	border-image: url("img/border-focused.png") 4 4 4 4 / 4px 4px 4px 4px repeat;
 	border-radius: 3px;
-	border-width: 1px 1px 2px 1px;
+	border-width: 2px 2px 2px 2px;
+	border-style: solid;
+	border-color: transparent;
+}
+
+/* focused button borders */
+.button:focus,
+.button.default,
+GtkComboBox.combobox-entry .button:focus {
+	border-image: url("img/border-raised-focused.png") 4 5 5 4 / 4px 5px 5px 4px repeat;
+	border-radius: 3px;
+	border-width: 2px 2px 2px 2px;
 	border-style: solid;
 	border-color: transparent;
 }
@@ -627,16 +636,16 @@ GtkComboBox.combobox-entry .entry:focus,
 .primary-toolbar .button:focus {
 	border-image: url("img/border-focused-ptb.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
 	border-radius: 3px;
-	border-width: 1px 1px 2px 1px;
+	border-width: 2px 2px 2px 2px;
 	border-style: solid;
 	border-color: transparent;
 }
 
 /* focused switch trough borders */
 GtkSwitch.trough:active {
-	border-image: url("img/border-focused-switch.svg") 3 3 4 3 / 3px 3px 4px 3px stretch;
+	border-image: url("img/border-switch-active.png") 4 4 4 4 / 4px 4px 4px 4px stretch;
 	border-radius: 3px;
-	border-width: 1px 1px 2px 1px;
+	border-width: 2px 2px 2px 2px;
 	border-style: solid;
 	border-color: transparent;
 }

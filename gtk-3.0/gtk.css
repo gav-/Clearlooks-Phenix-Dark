@@ -112,8 +112,6 @@
  *********/
 
 @define-color entry_text_color @theme_text_color;
-
-@define-color entry_inner_border_color shade(@core_color_b, 0.96);
 @define-color entry_bg_color @theme_base_color;
 
 /* insensitive */
@@ -384,7 +382,7 @@
  * trough *
  **********/
 
-@define-color trough_gradient_a shade(@core_color_b, 0.75);
+@define-color trough_gradient_a shade(@core_color_b, 0.84);
 @define-color trough_gradient_b shade(@core_color_b, 0.89);
 
 /******************

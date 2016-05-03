@@ -210,9 +210,7 @@ GtkTreeView.separator,
 /* Entry background */
 .entry {
 	background-color: @entry_bg_color;
-	background-image: linear-gradient(to bottom,
-	                  @entry_inner_border_color 1px,
-	                  @entry_bg_color 2px);
+	background-image: none;
 }
 
 /* Focused entry background */
@@ -295,7 +293,7 @@ GtkColorEditor GtkColorSwatch.color-dark:hover {
  ****************/
 
 GtkProgressBar {
-	padding: 0 0 1px 0;
+	padding: 1px;
 }
 
 /* progress component */
@@ -480,7 +478,7 @@ GtkMenuToolButton *,
 .primary-toolbar .button {
 	border-image: none;
 	border-style: solid;
-	border-width: 1px 1px 2px 1px;
+	border-width: 2px 2px 2px 2px;
 	border-color: transparent;
 }
 
@@ -1451,10 +1449,10 @@ GtkSwitch.trough:insensitive {
 GtkSwitch.slider {
 	background-color: @switch_slider_bg_color;
 	border-width: 1px;
-	border-radius: 2px;
+	border-radius: 3px;
 	border-style: solid;
 	border-color: @switch_slider_border_color;
-	padding: 0px 0px 1px 0px;
+	padding: 1px 1px 1px 1px;
 }
 
 GtkSwitch.slider:insensitive {
