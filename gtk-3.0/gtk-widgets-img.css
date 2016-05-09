@@ -630,10 +630,6 @@ GtkComboBox.combobox-entry .entry:focus,
 .primary-toolbar .button.raised.default:active,
 .primary-toolbar .raised .button.default:active,
 .primary-toolbar GtkComboBox .button:active:focus,
-.primary-toolbar .button.raised:focus,
-.primary-toolbar .button.raised.default,
-.primary-toolbar .raised .button:focus,
-.primary-toolbar .raised .button.default,
 .primary-toolbar GtkComboBox .button:focus {
 	border-image: url("img/border-focused.png") 4 4 4 4 / 4px 4px 4px 4px repeat;
 	border-radius: 3px;
@@ -645,6 +641,11 @@ GtkComboBox.combobox-entry .entry:focus,
 /* focused button borders */
 .button:focus,
 .button.default,
+/* primary toolbar - rasied focused element borders */
+.primary-toolbar .button.raised:focus,
+.primary-toolbar .button.raised.default,
+.primary-toolbar .raised .button:focus,
+.primary-toolbar .raised .button.default,
 GtkComboBox.combobox-entry .button:focus {
 	border-image: url("img/border-raised-focused.png") 4 5 5 4 / 4px 5px 5px 4px repeat;
 	border-radius: 3px;
