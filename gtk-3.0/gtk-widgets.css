@@ -661,6 +661,7 @@ GtkComboBox.combobox-entry .button:insensitive {
 }
 
 /* Focused + prelit primary toolbar button background */
+/*
 .primary-toolbar .button:focus:hover {
 	background-image: linear-gradient(to bottom,
 	                  @pt_button_focus_hover_gradient_a,
@@ -668,6 +669,7 @@ GtkComboBox.combobox-entry .button:insensitive {
 	                  @pt_button_focus_hover_gradient_c 50%,
 	                  @pt_button_focus_hover_gradient_d);
 }
+*/
 
 /*****************
  * Notebooks and *
